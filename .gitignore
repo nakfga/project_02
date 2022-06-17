@@ -1,0 +1,4 @@
+#忽略css.css这个文件
+css.css
+# 忽略 test 目录下所以的文件
+test/
