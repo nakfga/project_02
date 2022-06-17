@@ -1,0 +1,12 @@
+1.首先创建一个已 .gitinore文件
+2.然后在里面进行忽略的操作  看 安装以后GIT的操作
+3.然后在GIT软件中，先用 git status -s 看一下状态
+4.然后给它提交到 ,暂存区  git add .    点之间有空格
+5.然后在进行查看的它的状态 git status -s  一般 .gitinore文件前面会有一个绿色的 A表示添加到
+暂存区成功
+6.然后进行提交到GIT库中  git commit -m "创建了git 忽略文件"
+7.可以在看一下状态  会显示 暂存为空就正确了
+$ git status
+On branch master
+nothing to commit, working tree clean
+
